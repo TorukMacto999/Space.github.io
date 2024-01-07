@@ -1,0 +1,404 @@
+body{
+	background-color: #222222;
+	color: white;
+}
+1* {
+  outline: 1px solid orange;}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+.container{
+	display:flex;
+	flex-direction: row;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.contacts-menu {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 180px;
+  margin: 0;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: 80px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.contacts-menu li {
+  margin-left: 20px;
+}
+
+
+.contacts-menu a:hover {
+  opacity: 0.8;
+}
+
+.contacts-menu a:active {
+  opacity: 0.4;
+}
+
+.contacts-menu .icon {
+  display: block;
+  width: 17px;
+  height: 17px;
+}
+.contacts-menu .icon-mail {
+  background-image: url(../img/mail-icon.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.contacts-menu .icon-phone {
+  background-image: url(../img/phone-icon.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+nav{
+  display:flex;
+  flex-direction: row;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+.menu{
+	display:flex;
+  flex-direction: row;
+	margin-top: 85px;
+}
+.m1{
+	list-style: none;
+	padding-left: 40px;
+  width: 70px;
+	display: inline-block;
+	margin-right: 50px;
+	justify-content: space-evenly ;
+}
+li{
+  list-style: none;
+  padding-left: 40px;
+  width: 150px;
+  display: inline-block;
+  margin-right: 100px;
+  justify-content: space-evenly;
+}
+section{
+	display: flex;
+}
+.right{
+	width: 450px;
+	height: 450px;
+	margin-top: 60px;
+	margin-left: 250px;
+}
+.left{
+	width: 238px;
+	height: 100px;
+	margin-top: 100px;
+	margin-left: 286px;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+
+
+.features {
+  padding: 85px 0;
+
+  background-color: #131313;
+
+  color: #ffffff;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.features-list li {
+  position: relative;
+
+  width: 180px;
+  margin-right: 80px;
+  padding-top: 100px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #d4d4d4;
+}
+
+.features-list li::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 60px;
+  height: 68px;
+}
+.feature-made-in-russia::after {
+  background-image: url(../img/advantage-icon-1.png);
+}
+
+.feature-food::after {
+  background-image: url(../img/advantage-icon-2.png);
+}
+
+.feature-pilots::after {
+  background-image: url(../img/advantage-icon-3.png);
+}
+
+.feature-moon-rover::after {
+  background-image: url(../img/advantage-icon-4.png);
+}
+h1{
+	font-family: Courier New;
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.criteria{
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+	margin-top:85px;
+
+  background-color: #000000;
+  
+}
+img{
+  margin-bottom: 20px;
+}
+
+h2{
+	display:flex;
+	align-items: flex-start;
+}
+.under{
+	margin-left:20px;
+	margin-top:100px;
+}
+.logo {
+	margin-top: 54px;
+	margin-left: 160px;
+}
+.contact{
+	margin-top: 85px;
+	margin-left: 250px;
+}
+button{
+	width: 220px;
+	height: 50px;
+	margin-top: 25px;
+	border-radius: 25px;
+	background: #FFCB06;
+}
+.features-list li::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 60px;
+  height: 68px;
+}
+.feature-made-in-russia::after {
+  background-image: url(../SpaceZ/img);
+}
+
+.feature-food::after {
+  background-image: url(../img/advantage-icon-2.png);
+}
+
+.feature-pilots::after {
+  background-image: url(../img/advantage-icon-3.png);
+}
+
+.feature-moon-rover::after {
+  background-image: url(../img/advantage-icon-4.png);
+}
+.map{
+	width: 440px;
+	height: 346px;
+	margin-left: 220px;
+	margin-bottom:30px;
+}
+.thing{
+	width: 375px;
+	height: 80px;
+
+	margin-left: 80px;
+	font-family: Courier New;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 27px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.under{
+	width: 454px;
+	height: 190px;
+	margin-top: 20px;
+	margin-left: 80px;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.moon-vacation{
+	display:flex;
+	flex-direction:colum;
+  background-color: white;
+	color:black;
+}
+ht{
+	font-family: Courier New;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 27px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+b{
+	font-weight: 900;
+}
+.rec{
+	background-color: white;
+	color: black;
+}
+.site-footer {
+  padding-top: 50px;
+  padding-bottom: 80px;
+
+
+  color: #ffffff;
+
+  background-color: #131313;
+
+}
+
+
+.footer-columns-container {
+  display: flex;
+}
+
+.footer-columns-container .left-column {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-right: 100px;
+}
+
+.footer-columns-container .right-column {
+  width: 720px;
+  padding-top: 35px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.logo-container .logo {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.logo-container p {
+  font-size: 14px;
+}
+
+.copyrights {
+  margin-top: auto;
+
+
+  color: #555555;
+
+}
+
+.footer-menu {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.footer-menu > li {
+  width: 180px;
+  margin-right: 60px;
+}
+
+.footer-submenu-title {
+  display: block;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+
+
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  border-bottom: 1px solid #555555;
+
+}
+
+.footer-submenu {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.footer-submenu > li {
+  margin-bottom: 20px;
+}
+
+.footer-submenu a {
+  text-decoration: none;
+ color: #888888;
+}
+
+
+    .footer-nav a:hover {
+      color: white;
+    }
+
+    .footer-nav a:active {
+      color: #ccc;
+    }
